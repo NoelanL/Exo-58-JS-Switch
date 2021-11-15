@@ -1,9 +1,10 @@
+let fruits = prompt("Entrez le nom d'un fruit");
 
-(fruits) {
-    "Banana":
+switch(fruits) {
+    case "Banana":
     alert("Hello")
     break;
-    "Apple":
+    case "Apple":
     alert("Welcome")
     break;
 }
